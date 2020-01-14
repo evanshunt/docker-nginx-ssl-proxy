@@ -1,4 +1,4 @@
-FROM nginx:1.11
+FROM nginx:1.17
 
 COPY web.key /etc/nginx/
 COPY web.crt /etc/nginx/
